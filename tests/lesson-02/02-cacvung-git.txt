@@ -1,0 +1,6 @@
+1. tạo 3 file: file1,file2, file3
+2. chạy lệnh git init -> khởi tạo git chuyển toàn bộ file1,2,3 sang vùng working directory
+3. chạy lệnh git commit -m"init project" -> thực hiện 1 commit đầu tiên với 3 file vẫn nằm trong vùng working directory
+4. chạy lệnh git add file1 -> add file 1 từ vùng working directory sang staging area
+5. chạy lệnh git commit -m"add fie1" -> commit file1 chuyển từ vùng staging sang repository
+6. chạy lệnh git commit -m"add file" -> no change
