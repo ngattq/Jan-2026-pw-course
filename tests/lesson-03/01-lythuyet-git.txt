@@ -1,0 +1,4 @@
+git commit --amend : sửa commit gần nhất mà k cần tạo commit mới
+git commit --amend -m"<message>" : sửa message của commit gần nhất
+git restore --staged <file> : bỏ file ra khỏi vùng staged, đưa về vùng working directory
+git reset HEAD~1 : bỏ 1 commit gần nhất ra khỏi vùng repository, đưa về vùng workding directory
