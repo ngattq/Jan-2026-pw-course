@@ -21,6 +21,18 @@ console.log(findMin(3, 4, 5));
 console.log(findMin(9, 28, 19));
 
 //bai 3
+function getTopStudents(student, threshold) {
+    for (let i = 0; i < student.length; i++) {
+        if (student[i].score >= threshold) {
+            console.log(`danh sách học sinh đạt điểm top là: ${student[i].name}`)
+        }
+    }
+}
+let student = [{ name: "Nga", score: 10 }, { name: "Hoa", score: 9 }, { name: "Nam", score: 5 }];
+getTopStudents(student, 9)
+
+
+//bai 4
 function calculateInterest(principal, rate, years) {
     let total = principal + principal * rate * years / 100;
     return total;
