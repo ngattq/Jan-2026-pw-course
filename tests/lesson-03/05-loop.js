@@ -1,6 +1,6 @@
 // bài 1: tính tổng từ 1 đến 100
 let sum = 0;
-for (i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
     sum += i;
 };
 console.log(sum);
@@ -15,7 +15,7 @@ for (let i = 2; i <= 9; i++) {
 
 // bài 3: tạo 1 mảng chứa các số lẻ từ 1 đến 99
 const arr = [];
-for (i = 1; i <= 99; i++) {
+for (let i = 1; i <= 99; i++) {
     if (i % 2 == 1) {
         arr.push(i);
     }
