@@ -1,0 +1,11 @@
+1. Cấu trúc DOM cơ bản của 1 trang web bao gồm thẻ gì?
+- <html>: thẻ cha lớn nhất bao gồm toàn bộ nội dung trang web
+- <head>: phần đầu của trang web chứa các thông tin ẩn như tiêu đề, link dẫn...
+- <body>: phần thân, nơi thể hiện nội dung của trang web
+2. Hãy mô tả cấu trúc hlml của 1 bảng
+- <table>: Cái khung bao quanh toàn bộ bảng.
+- <thead>: Phần đầu bảng, thường chứa tiêu đề các cột.
+- <tbody>: Phần thân bảng, chứa dữ liệu chính.
+- <tr> (Table Row): Đại diện cho một Hàng. Một bảng có nhiều hàng.
+- <th> (Table Header): Ô tiêu đề (chữ thường in đậm và nằm giữa), dùng trong <thead>.
+- <td> (Table Data): Ô dữ liệu bình thường, dùng trong <tbody>.
